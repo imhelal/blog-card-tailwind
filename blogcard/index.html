@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Card with TailwindCSS</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- App css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="font-figtree">
+    <!-- Blog Card -->
+    <div
+      class="bg-[#F4D04E] min-w-full min-h-screen flex justify-center items-center"
+    >
+      <div
+        class="bg-white p-6 w-[327px] md:w-[384px] shadow-[8px_8px_0px_0px_#000] rounded-[20px] border border-solid border-black"
+      >
+        <img
+          class="rounded-[10px] w-full"
+          src="images/illustration-article.svg"
+          alt=""
+        />
+        <div class="my-6">
+          <a
+            class="bg-[#F4D04E] rounded px-3 py-1 font-extrabold text-sm leading-[150%]"
+            href="#"
+            >Learning</a
+          >
+          <h2 class="text-sm font-medium my-3 leading-[150%] text-gray-950">
+            Published 21 Dec 2023
+          </h2>
+          <a
+            href="#"
+            class="block text-xl md:text-2xl leading-[150%] font-extrabold text-gray-950 hover:text-[#F4D04E] transition-all mb-3"
+          >
+            <h1>HTML & CSS foundations</h1>
+          </a>
+          <p class="text-base leading-[150%] font-medium text-gray-500">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+        </div>
+
+        <div class="flex items-center gap-3">
+          <img
+            class="w-8 h-8 rounded-full"
+            src="images/image-avatar.webp"
+            alt=""
+          />
+          <h2 class="text-sm text-gray-950 font-extrabold leading-[150%]">
+            Greg Hooper
+          </h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
